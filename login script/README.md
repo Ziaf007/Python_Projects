@@ -4,4 +4,4 @@ to the Moodle portal Dashboard and then logs in the user. It opens the side-Draw
 is enclosed in a While True loop and so will run till eternity until the user manually stops the script or closes the driver window while running.
 
 the script requires an additional .txt file from which it shall read the credentials of the user and the path of the chromedriver. The file is not included in the repository and
-needs to be manually created by the user in the format of USERNAME,PASSWORD,CHROMEDRIVER_PATH 
+needs to be manually created by the user in the format of USERNAME,PASSWORD,CHROMEDRIVER_PATH and then link the file to the script by specifying the file path in the F holder(line 5).
